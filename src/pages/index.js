@@ -35,7 +35,7 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small>{node.created}</small>
+              <small>{node.created}!!</small>
               <p
                 dangerouslySetInnerHTML={{ __html: node.metadata.description }}
               />
